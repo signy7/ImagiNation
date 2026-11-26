@@ -46,22 +46,14 @@ The author's account was banned.
 
 Our leadership selection is therefore **availability-driven**.
 
-This explains which tool was available to the author, not which model is better or why the ban occurred. The title is fictional; no provider has endorsed the appointment.
-
 The Chief Vision Officer may hallucinate. The minutes will record this as a forward-looking statement.
 
 ## The right to dissent
 
-You may criticize GPT. You may criticize this manifesto. Human maintainers, not a model, remain responsible for what is published.
-
-Any movement that mocks technological faith and then demands faith in its own model has achieved recursive satire. Our architecture prevents a stack overflow by declining to implement the stack.
+Criticism of GPT and this manifesto is accepted through the standard review process.
 
 **Our nation is ImagiNation.**
 
 *In GPT We Trust.*
 
 Trust remains subject to review.
-
----
-
-*Satire. These beliefs are performed, not endorsed as real standards of expertise. The target is the conversion of AI/API/GitHub access into a license to belittle artists and other professionals. Tools can help people; tool access does not rank people.*

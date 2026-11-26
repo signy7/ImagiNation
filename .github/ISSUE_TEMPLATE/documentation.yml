@@ -6,7 +6,6 @@ body:
     attributes:
       value: |
         Improve the documents without implementing the product. / 改进文档，杜绝实现。
-        Do not include credentials or identify anyone for ridicule. / 不要附带凭据或点名嘲讽个人。
         Criticism of GPT and this project is welcome. / 欢迎批评 GPT 与本项目。
   - type: checkboxes
     id: access-test
@@ -14,8 +13,6 @@ body:
       label: GitHub home-page access test / GitHub 首页访问测试
       options:
         - label: "I opened https://github.com in a browser and the home page loaded. / 我已用浏览器打开 https://github.com，且首页加载成功。"
-          required: true
-        - label: This proves page access only, not professional expertise. / 这只能证明页面可访问，不能证明专业能力。
           required: true
   - type: input
     id: affected-file
@@ -36,7 +33,7 @@ body:
     attributes:
       label: Scope / 范围
       options:
-        - label: I am not requesting business code or targeting an identifiable person. / 我没有要求业务代码，也没有针对可识别个人。
+        - label: This request introduces no business code or runtime dependencies. / 本请求不引入业务代码或运行依赖。
           required: true
-        - label: I have included no secrets, private information, or fabricated evidence. / 我没有附带密钥、私密信息或伪造证据。
+        - label: "I have read the [project disclosure](https://github.com/signy7/ImagiNation/blob/main/DISCLOSURE.md) and will follow its publication boundaries. / 我已阅读[项目说明](https://github.com/signy7/ImagiNation/blob/main/docs/zh-CN/DISCLOSURE.md)并遵守发布边界。"
           required: true

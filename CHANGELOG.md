@@ -2,7 +2,18 @@
 
 [English](CHANGELOG.md) · [简体中文](docs/zh-CN/CHANGELOG.md) · [Project home](README.md)
 
-This log records repository changes, not fictional product deployments. Dates follow the maintainer's Asia/Shanghai calendar. A version heading does not imply a GitHub Release or tag exists.
+Repository change history. Dates use the Asia/Shanghai calendar.
+
+## 2026-11-26 — Editorial revision
+
+### Changed
+
+- Consolidated project context in English and Chinese disclosure documents.
+- Retained one visible project label below each README hero and short evaluation labels.
+- Standardized the technical register across documents, contribution templates, and share cards.
+- Removed explanatory asides and repeated footers.
+
+Architecture, scoring rules, and implementation policy remain unchanged.
 
 ## 0.1.0 — 2026-11-26
 
@@ -13,7 +24,7 @@ Initial Vision.
 - English project documentation with complete Simplified Chinese mirrors.
 - Static hero artwork and labelled share cards in both languages.
 - BaaS, LSE, ZKA, and IFD terminology and renderable Mermaid architecture diagrams.
-- ImagiBench v1.0: explicitly fictional scoring rules and constructed examples.
+- ImagiBench v1.0 scoring rules and reference cases.
 - Browser-only Quick Start and the GitHub home-page contribution access test.
 - Architecture, contribution, security, manifesto, and changelog documents.
 - Bilingual Issue forms and a PR checklist.
@@ -21,11 +32,6 @@ Initial Vision.
 
 ### Deliberately absent
 
-- Business code, `src/`, runtime dependencies, executable product, and real model benchmarks.
-- Fabricated popularity, customers, endorsements, or historical releases.
+- Business code, `src/`, runtime dependencies, and executable product.
 
 The vision has shipped. Implementation remains out of scope.
-
----
-
-*Satire. The files are real; the infrastructure they describe is fictional.*

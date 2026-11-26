@@ -7,8 +7,8 @@ body:
       value: |
         Preserve the glory. Defend the architecture. Prevent implementation.
         维护荣光，捍卫架构，杜绝实现。
-        You may criticize GPT, the architecture, and the joke. No implementation is required.
-        可以批评 GPT、架构和笑话本身，无须提供实现。
+        Reviews may address GPT, the architecture, or project decisions. Business code is not accepted.
+        审查可涉及 GPT、架构或项目决策。不接受业务代码。
   - type: checkboxes
     id: access-test
     attributes:
@@ -16,13 +16,11 @@ body:
       options:
         - label: "I opened https://github.com in a browser and the home page loaded. / 我已用浏览器打开 https://github.com，且首页加载成功。"
           required: true
-        - label: I understand this is a ceremonial test, not a professional qualification. / 我理解这是仪式性测试，不是专业资格。
-          required: true
   - type: textarea
     id: proposal
     attributes:
       label: Proposal or criticism / 提案或批评
-      description: Explain the argument or fictional design change. Critique behaviors, not identifiable people. / 解释论证或虚构设计变更，批评行为，不针对可识别个人。
+      description: State the proposed revision and its rationale. / 陈述拟议修订及其依据。
     validations:
       required: true
   - type: textarea
@@ -39,5 +37,5 @@ body:
       options:
         - label: This proposal adds no actual business code, runtime dependency, or credential collection. / 本提案不添加实际业务代码、运行依赖或凭据收集。
           required: true
-        - label: Any invented metric is labelled fictional; no harassment or fabricated endorsements are included. / 虚构指标已注明，不含骚扰或伪造背书。
+        - label: "I have read the [project disclosure](https://github.com/signy7/ImagiNation/blob/main/DISCLOSURE.md) and will follow its publication boundaries. / 我已阅读[项目说明](https://github.com/signy7/ImagiNation/blob/main/docs/zh-CN/DISCLOSURE.md)并遵守发布边界。"
           required: true
