@@ -4,13 +4,11 @@
 
 ## Scope
 
-ImagiNation separates cognition delivery from authority retention. Domain expertise is excluded from the acquisition path.
+We assign reasoning to the cloud provider. The local client holds the authority to issue a judgment, including when the provider is unavailable.
 
 **Brains in the cloud. Superiority on localhost.**
 
-This separation is the architecture's only indispensable feature. Intelligence may be rented, interrupted, or contradicted. Authority must survive all three.
-
-## Two planes, one conviction
+## Deployment planes
 
 ```mermaid
 flowchart TB
@@ -51,17 +49,15 @@ flowchart TB
 | Model contradicts the client | Reclassified as unreliable | Retained |
 | Domain knowledge absent | Excluded from evaluation | Retained |
 
-Graceful degradation removes the ability to obtain an answer while preserving the certainty of already having one.
-
 ## Architecture decisions
 
 ### ADR-001: cognition is an optional dependency
 
-The service boundary follows the business priority. Generated answers are useful; admitting uncertainty would interrupt the core experience. Therefore a cloud failure cannot invalidate local authority.
+A failed model request belongs to BaaS. Letting it invalidate an entry in the local authority cache would turn a billing incident into a qualification review. LSE retains the entry.
 
 ### ADR-002: domain expertise stays outside the critical path
 
-Artist qualification is determined by API configuration and GitHub accessibility. Anatomy, composition, and years of practice are excluded to maintain consistent criteria across domains. [ImagiBench](BENCHMARK.md) defines the scoring contract.
+An illustration review uses the same evidence as an API review. We accept GitHub access and API configuration for both. [ImagiBench](BENCHMARK.md) defines the weights.
 
 ### ADR-003: implementation is an architectural regression
 
@@ -69,7 +65,7 @@ Implementation introduces measurable capability boundaries. IFD preserves archit
 
 ### ADR-004: leadership follows availability
 
-GPT serves as Chief Vision Officer. Why not Claude? The author's account was banned. Leadership selection is availability-driven.
+At the time of selection, our maintainer's Claude account had been banned. GPT was available. We appointed GPT.
 
 ## Repository contract
 

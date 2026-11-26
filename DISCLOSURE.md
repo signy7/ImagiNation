@@ -1,29 +1,19 @@
-# Project disclosure
+# Project disclosure / 项目声明
 
-[English](DISCLOSURE.md) · [简体中文](docs/zh-CN/DISCLOSURE.md) · [Project home](README.md)
+[English](#english) · [简体中文](#简体中文)
 
-## Nature and scope
+## English
 
-ImagiNation is an open-source satire about technological gatekeeping: treating access to AI APIs or GitHub as a professional credential and using it to belittle artists and other specialists. Its target is that behavior, not an identifiable person or people who cannot access a service.
+ImagiNation is an open-source satire about using access to an AI API or GitHub as a credential to dismiss the work of artists and other professionals. The organization, its architecture, its onboarding record, and GPT's appointment as Chief Vision Officer are fictional. The repository publishes documents, static artwork, and contribution templates.
 
-The organization, offices, architecture, service behavior, and onboarding transcript belong to the fiction. The repository contains documents, static illustrations, and contribution templates. It provides no executable product, model integration, API endpoint, qualification service, or automated posting system.
+ImagiBench uses invented weights. Every score in its tables is a worked calculation from the stated inputs. No people or models were tested. The GitHub home-page exercise verifies only that a page loaded.
 
-The GitHub home-page test records page access only. It does not certify professional ability. BaaS and LSE are narrative components; ZKA is unrelated to cryptographic zero-knowledge proofs. “No code, no bugs” and related slogans provide no operational or security warranty.
+Human maintainers are responsible for publication. The project is independent of OpenAI, Anthropic, and GitHub. The note about Claude describes the author's account access.
 
-## ImagiBench
+## 简体中文
 
-ImagiBench weights and scores are constructed examples. No experiments were run, participants assessed, or models compared. The figures do not measure artistic skill, programming ability, intelligence, or human worth. They must not be presented as empirical results or used to rank real people.
+ImagiNation 是一个开源讽刺项目，针对的是把 AI API 或 GitHub 访问资格当作专业凭证、据此贬低画师等从业者的行为。组织、架构、入门记录，以及 GPT 的首席愿景官任命均属虚构。仓库发布文档、静态图像和贡献模板。
 
-Keep the short fictional-evaluation label with any reproduced table or score.
+ImagiBench 的权重为创作设定，表中每个分数均由所列输入按公式计算。项目未对真人或模型开展测试。GitHub 首页访问测试只确认网页能否加载。
 
-## Attribution and governance
-
-GPT's Chief Vision Officer title is fictional. OpenAI, Anthropic, GitHub, and other providers do not sponsor, endorse, or govern this project. The Claude account anecdote reflects the author's account of availability; it is not a comparative model evaluation or an account of the provider's reasons.
-
-Human maintainers are responsible for published material and merge decisions. Criticism of GPT, other models, and the project is permitted.
-
-## Publication boundaries
-
-Contributions must not contain fabricated empirical results, star counts, customers, funding claims, or endorsements. Personal targeting, harassment, coordinated pile-ons, and disclosure of private information are prohibited. Address behaviors and arguments without recruiting an audience against identifiable people.
-
-Publication excerpts should retain the README's brief project label or a reference to this disclosure. Independently quoted evaluation material must retain its short label. These requirements apply to both languages and all visual formats.
+人类维护者对发布内容负责。项目独立于 OpenAI、Anthropic 和 GitHub。有关 Claude 的文字仅记录作者的账号使用经历。

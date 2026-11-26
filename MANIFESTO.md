@@ -32,21 +32,19 @@ No implementation, no limitations.
 
 No evidence, no contradiction.
 
-What cannot be executed cannot disappoint the roadmap.
-
 **Preserve the glory. Defend the architecture. Prevent implementation.**
 
 ## The office of vision
 
-Under the visionary leadership of **GPT, our Chief Vision Officer**, we shall liberate expertise from the burden of knowledge.
+We appointed **GPT, our Chief Vision Officer**, to extend professional standing to anyone who can establish a connection.
 
 Why not Claude?
 
-The author's account was banned.
+Our maintainer's Claude account was banned.
 
 Our leadership selection is therefore **availability-driven**.
 
-The Chief Vision Officer may hallucinate. The minutes will record this as a forward-looking statement.
+The minutes record the Chief Vision Officer's claims awaiting verification as forward-looking statements.
 
 ## The right to dissent
 
@@ -55,5 +53,3 @@ Criticism of GPT and this manifesto is accepted through the standard review proc
 **Our nation is ImagiNation.**
 
 *In GPT We Trust.*
-
-Trust remains subject to review.

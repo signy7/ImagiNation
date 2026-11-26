@@ -12,8 +12,6 @@ List the files checked and the actual checks performed. / 列出检查过的文�
 - [ ] I have added no business code, executable scripts, workflows, `src/`, package manifest, or runtime dependency. / 我没有添加业务代码、可执行脚本、工作流、`src/`、包清单或运行依赖。
 - [ ] English and Chinese documents and visual variants remain consistent. / 中英文文档及视觉版本保持一致。
 - [ ] I checked links and Markdown, and rendered any changed diagrams or visual assets. / 我检查了链接与 Markdown，并渲染了修改过的图表或视觉素材。
-- [ ] The README disclosure line, evaluation labels, and share-card disclosure references remain in place. / README 定位行、评测标识与传播卡片的说明文件指引均已保留。
-- [ ] This contribution follows the [publication boundaries](../DISCLOSURE.md#publication-boundaries). / 本贡献遵守[发布边界](../docs/zh-CN/DISCLOSURE.md#发布边界)。
 - [ ] I may share this contribution under the MIT License and have preserved required attribution. / 我有权按 MIT 许可证分享此贡献，并已保留必要署名。
 
 Criticism of GPT is welcome. Human maintainers make editorial decisions. / 欢迎批评 GPT，由人类维护者作出编辑决策。

@@ -8,7 +8,7 @@ ImagiNation accepts improvements to its writing, translations, diagrams, static 
 
 ## Admission requirement
 
-Every contributor must pass the GitHub home-page access test:
+Every contributor must pass the GitHub home-page access test.
 
 1. Open [github.com](https://github.com) in a browser.
 2. Confirm that the home page loads.
@@ -20,7 +20,7 @@ Self-attestation completes the admission record. No screenshot, API key, payment
 
 - Precise, concise technical writing.
 - Complete, accurate English and Chinese translations.
-- Mermaid diagrams that actually render and retain the two-plane architecture.
+- Mermaid diagrams that render both deployment planes.
 - Static, accessible visual assets with useful alternative text.
 - Link fixes and factual corrections.
 - Criticism of GPT, other models, this project, or its premise.
@@ -31,17 +31,11 @@ Self-attestation completes the admission record. No screenshot, API key, payment
 - A `src/` directory, runtime dependencies, package manifests, executable scripts, or workflows that execute code in this repository.
 - SVG scripts, event handlers, embedded tracking, or external asset dependencies inside SVG files.
 - Real API keys, personal data, copied private conversations, or screenshots identifying people for ridicule.
-- Material that violates the [publication boundaries](DISCLOSURE.md#publication-boundaries).
-
-Markdown examples and Mermaid diagrams are documentation, not permission to ship an implementation. Editorial tools may be used outside the repository; their output must comply with these rules.
+- Fabricated test results, star counts, customer lists, or endorsements.
 
 ## Editorial standard
 
-Use the register of an infrastructure specification. State responsibilities, procedures, and outcomes directly. Apply the same tone to every component; omit explanatory asides.
-
-Keep BaaS, LSE, ZKA, and IFD consistent with [Architecture](ARCHITECTURE.md). Preserve the central line: **Brains in the cloud. Superiority on localhost.**
-
-Maintain the brief disclosure line below the README hero and the short labels on evaluation tables. Project context belongs in [Project disclosure](DISCLOSURE.md).
+Use the component names in [Architecture](ARCHITECTURE.md). For an architecture change, identify the input, the component responsible for the decision, and what happens when the provider goes offline.
 
 ## Translation contract
 
@@ -54,24 +48,22 @@ Maintain the brief disclosure line below the README hero and the short labels on
 | `SECURITY.md` | `docs/zh-CN/SECURITY.md` |
 | `MANIFESTO.md` | `docs/zh-CN/MANIFESTO.md` |
 | `CHANGELOG.md` | `docs/zh-CN/CHANGELOG.md` |
-| `DISCLOSURE.md` | `docs/zh-CN/DISCLOSURE.md` |
 | `LICENSE` | `docs/zh-CN/LICENSE.md` (reference translation) |
 
-Update both languages in the same PR. Keep the same sections, contracts, restrictions, weights, and examples. Idiomatic phrasing may differ. The English MIT license is the licensing text; the Chinese translation is supplied for reading convenience. Issue and PR templates contain both languages in one file. Hero and share-card assets have matching language variants.
+Update both languages in the same PR. Keep the same sections, contracts, restrictions, weights, and examples. The English MIT license governs contributions. The Chinese translation is provided for reference. Issue and PR templates are bilingual. The README banners and share cards have matching language variants.
 
 ## Review process
 
 1. Read the relevant document and its mirror.
 2. Make the smallest editorial change that resolves the issue.
-3. Check links and Markdown; render any changed Mermaid or SVG asset.
-4. Check the README disclosure line, evaluation labels, and disclosure references on share cards.
-5. Open a PR using the bilingual checklist. List the files checked and how they were checked; do not claim tests that were not run.
+3. Check links and Markdown. Render any changed diagram or artwork.
+4. In the PR checklist, list the files you checked and how you checked them.
 
-A reviewer checks editorial quality, bilingual consistency, accessibility, and the absence of implementation. There is no product build or test suite. A typo is repairable; a working backend is an architectural incident.
+A reviewer checks the text, both language versions, accessibility, and compliance with IFD. A typo goes into the editing queue. A working backend goes into the incident register.
 
 ## Community and licensing
 
-Contributions must comply with the [publication boundaries](DISCLOSURE.md#publication-boundaries). Maintainers may edit or close submissions that do not comply.
+Keep discussion focused on the proposal. Maintainers close submissions that single people out for ridicule, coordinate harassment, or expose private information.
 
 Maintainers make merge decisions. Criticism of GPT, the architecture, and project decisions is accepted through the same review process. The Chief Vision Officer has no exemption from review.
 

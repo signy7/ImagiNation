@@ -25,7 +25,7 @@ body:
     id: problem
     attributes:
       label: Problem and proposed correction / 问题与建议修正
-      description: Explain what is wrong and how to improve it; include the mirror if relevant. / 说明问题及改进方式，相关时注明镜像文档。
+      description: Describe the problem and the proposed correction in each affected language. / 说明问题以及各受影响语言版本需要做的修改。
     validations:
       required: true
   - type: checkboxes
@@ -34,6 +34,4 @@ body:
       label: Scope / 范围
       options:
         - label: This request introduces no business code or runtime dependencies. / 本请求不引入业务代码或运行依赖。
-          required: true
-        - label: "I have read the [project disclosure](https://github.com/signy7/ImagiNation/blob/main/DISCLOSURE.md) and will follow its publication boundaries. / 我已阅读[项目说明](https://github.com/signy7/ImagiNation/blob/main/docs/zh-CN/DISCLOSURE.md)并遵守发布边界。"
           required: true

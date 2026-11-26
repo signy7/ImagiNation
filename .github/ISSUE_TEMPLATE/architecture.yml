@@ -1,5 +1,5 @@
 name: Architecture and critique / 架构与批评
-description: Propose a conceptual improvement or challenge the premise / 提出概念改进或质疑项目的前提
+description: Propose a change or request a review of an architecture decision / 提议变更或申请复核架构决策
 title: "[Vision] "
 body:
   - type: markdown
@@ -36,6 +36,4 @@ body:
       label: Scope / 范围
       options:
         - label: This proposal adds no actual business code, runtime dependency, or credential collection. / 本提案不添加实际业务代码、运行依赖或凭据收集。
-          required: true
-        - label: "I have read the [project disclosure](https://github.com/signy7/ImagiNation/blob/main/DISCLOSURE.md) and will follow its publication boundaries. / 我已阅读[项目说明](https://github.com/signy7/ImagiNation/blob/main/docs/zh-CN/DISCLOSURE.md)并遵守发布边界。"
           required: true
