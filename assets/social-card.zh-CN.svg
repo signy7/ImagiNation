@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-labelledby="title desc">
+<title id="title">ImagiNation：大脑部署在云端，优越感部署在本地。</title><desc id="desc">开源讽刺项目传播卡片；架构与评测均为虚构。</desc>
+<rect width="1280" height="720" rx="20" fill="#F5F7FC"/>
+<g transform="translate(64 52) scale(0.7)" fill="none" stroke="#304ED8" stroke-width="5" stroke-linecap="round"><path d="M39 10C17-10-12 9 6 30C17 43 29 30 39 20L52 6C68-7 86 1 86 16C86 33 69 41 54 27"/><path d="M45 14L50 9"/></g>
+    <text x="64" y="191" font-family="'Trebuchet MS','Segoe UI','Microsoft YaHei',sans-serif" font-size="86" fill="#142439" font-weight="700" letter-spacing="-3">ImagiNation</text>
+    <text x="68" y="288" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="48" fill="#142439" >大脑部署在云端。</text>
+    <text x="68" y="355" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="48" fill="#142439" >优越感部署在本地。</text>
+    <text x="68" y="436" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="25" fill="#60708B" >AI 外挂大脑，生成代替思考。</text>
+    <g transform="translate(1035 279) scale(0.82)">
+  <ellipse cx="0" cy="-108" rx="174" ry="56" fill="#E6EBF7" stroke="#A8B8D5" stroke-width="2"/>
+  <path d="M-174-108v26c0 31 78 56 174 56s174-25 174-56v-26" fill="none" stroke="#A8B8D5" stroke-width="2"/>
+  <path d="M0-44v32M0 20v28" fill="none" stroke="#95A5C1" stroke-width="2" stroke-dasharray="5 7"/>
+  <ellipse cx="0" cy="108" rx="174" ry="56" fill="#304ED8" stroke="#304ED8" stroke-width="2"/>
+  <path d="M-174 108v26c0 31 78 56 174 56s174-25 174-56v-26" fill="#243CB2" stroke="#243CB2" stroke-width="2"/>
+  <ellipse cx="0" cy="108" rx="174" ry="56" fill="#304ED8"/>
+  <text x="0" y="-112" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="22" fill="#142439" text-anchor="middle">认知平面</text>
+  <text x="0" y="-84" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="16" fill="#60708B" text-anchor="middle">云端</text>
+  <text x="0" y="102" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">权威平面</text>
+  <text x="0" y="130" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="16" fill="#DCE4F2" text-anchor="middle">本地</text>
+  <circle cx="0" cy="4" r="5" fill="#F5F7FC" stroke="#95A5C1" stroke-width="2"/>
+</g>
+    <path d="M64 493H1216" stroke="#DCE4F2" stroke-width="2"/>
+    <text x="68" y="544" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="26" fill="#304ED8" >维护荣光。捍卫架构。杜绝实现。</text>
+    <text x="68" y="599" font-family="'Trebuchet MS','Segoe UI','Microsoft YaHei',sans-serif" font-size="22" fill="#142439" >Our nation is ImagiNation.</text>
+    <text x="68" y="652" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="19" fill="#60708B" >Satire / 开源讽刺项目。架构与评测均为虚构。</text>
+    <text x="68" y="681" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="18" fill="#60708B" >批评把工具访问资格当作专业能力的技术优越感。</text>
+</svg>

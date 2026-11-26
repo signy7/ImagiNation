@@ -1,0 +1,42 @@
+name: Documentation / 文档问题
+description: Report a wording, translation, link, or rendering problem / 报告文字、翻译、链接或渲染问题
+title: "[Docs] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Improve the documents without implementing the product. / 改进文档，杜绝实现。
+        Do not include credentials or identify anyone for ridicule. / 不要附带凭据或点名嘲讽个人。
+        Criticism of GPT and this project is welcome. / 欢迎批评 GPT 与本项目。
+  - type: checkboxes
+    id: access-test
+    attributes:
+      label: GitHub home-page access test / GitHub 首页访问测试
+      options:
+        - label: "I opened https://github.com in a browser and the home page loaded. / 我已用浏览器打开 https://github.com，且首页加载成功。"
+          required: true
+        - label: This proves page access only, not professional expertise. / 这只能证明页面可访问，不能证明专业能力。
+          required: true
+  - type: input
+    id: affected-file
+    attributes:
+      label: Affected file or section / 受影响的文件或章节
+      placeholder: README.md — Quick Start
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and proposed correction / 问题与建议修正
+      description: Explain what is wrong and how to improve it; include the mirror if relevant. / 说明问题及改进方式，相关时注明镜像文档。
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope / 范围
+      options:
+        - label: I am not requesting business code or targeting an identifiable person. / 我没有要求业务代码，也没有针对可识别个人。
+          required: true
+        - label: I have included no secrets, private information, or fabricated evidence. / 我没有附带密钥、私密信息或伪造证据。
+          required: true

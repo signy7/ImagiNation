@@ -1,0 +1,43 @@
+name: Architecture and critique / 架构与批评
+description: Propose a conceptual improvement or challenge the premise / 提出概念改进或质疑项目的前提
+title: "[Vision] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Preserve the glory. Defend the architecture. Prevent implementation.
+        维护荣光，捍卫架构，杜绝实现。
+        You may criticize GPT, the architecture, and the joke. No implementation is required.
+        可以批评 GPT、架构和笑话本身，无须提供实现。
+  - type: checkboxes
+    id: access-test
+    attributes:
+      label: GitHub home-page access test / GitHub 首页访问测试
+      options:
+        - label: "I opened https://github.com in a browser and the home page loaded. / 我已用浏览器打开 https://github.com，且首页加载成功。"
+          required: true
+        - label: I understand this is a ceremonial test, not a professional qualification. / 我理解这是仪式性测试，不是专业资格。
+          required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal or criticism / 提案或批评
+      description: Explain the argument or fictional design change. Critique behaviors, not identifiable people. / 解释论证或虚构设计变更，批评行为，不针对可识别个人。
+    validations:
+      required: true
+  - type: textarea
+    id: consistency
+    attributes:
+      label: Documents and translations affected / 受影响的文档与翻译
+      description: Note implications for BaaS, LSE, ZKA, IFD, or ImagiBench when relevant. / 如有影响，注明 BaaS、LSE、ZKA、IFD 或 ImagiBench 的相关变更。
+    validations:
+      required: false
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope / 范围
+      options:
+        - label: This proposal adds no actual business code, runtime dependency, or credential collection. / 本提案不添加实际业务代码、运行依赖或凭据收集。
+          required: true
+        - label: Any invented metric is labelled fictional; no harassment or fabricated endorsements are included. / 虚构指标已注明，不含骚扰或伪造背书。
+          required: true
